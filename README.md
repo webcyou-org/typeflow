@@ -13,8 +13,19 @@ typeflow [OPTIONS] <MESSAGE>
 ### Arguments
 
 ```
-<MESSAGE>
+Vec<MESSAGE>
 ```
+
+```
+cargo run "Single message"
+```
+
+or 
+
+```
+cargo run "Supports" "multiple split messages"
+```
+
 
 ### Options
 
